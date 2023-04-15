@@ -2,14 +2,14 @@
 
 ## indice 
 - [Introducción](#id1)
-- [Requerimientos funcionales](#2)
-- [Alta de Libros](#3)
-- [Alta de usuarios](#4)
-- [Préstamos y devoluciones de ejemplares](#5)
-- [Reporte de préstamos próximos a vencer](#6)
-- [Scoring de prestamos](#7)
-- [Notificación de vencimiento de préstamos](#8)
-- [Requerimientos no funcionales](#9)
+- [Requerimientos funcionales](#id2)
+- [Alta de Libros](#id3)
+- [Alta de usuarios](#id4)
+- [Préstamos y devoluciones de ejemplares](#id5)
+- [Reporte de préstamos próximos a vencer](#id6)
+- [Scoring de prestamos](#id7)
+- [Notificación de vencimiento de préstamos](#id8)
+- [Requerimientos no funcionales](#id9)
 
 ## Introducción <a name="id1"></a>
 Realizaremos una aplicación de gestión de préstamos de una biblioteca
