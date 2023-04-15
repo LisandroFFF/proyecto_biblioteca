@@ -38,7 +38,7 @@ una aplicación C# lo podemos encontrar en el siguiente repositorio de GitHub
 Un usuario administrativo de la aplicación deberá poder la realizar importación y 
 actualización de datos de los libros
 
-### Alta de usuarios <a name="id3"></a>
+### Alta de usuarios <a name="id4"></a>
 
 La aplicación deberá poder dar de alta usuarios para que puedan ser utilizados en la misma. 
 Los usuarios pueden ser de dos tipos, administrador o simple. Un usuario de tipo 
@@ -47,7 +47,7 @@ las diferentes acciones para gestionar los préstamos. En cambio un usuario o us
 no puede interactuar en el sistema y su sola presencia en el mismo es debido a que será 
 objetivo los préstamos.
 
-### Préstamos y devoluciones de ejemplares <a name="id4"></a>
+### Préstamos y devoluciones de ejemplares <a name="id5"></a>
 
 La aplicación deberá ser capaz de registrar un préstamo de un ejemplar de un libro a un 
 usuario, estableciendo datos acerca del préstamo como ser fecha de préstamo, fecha de 
@@ -55,13 +55,13 @@ devolución, etc. Además la aplicación deberá poder registrar también la dev
 ejemplares prestados
 
 
-### Reporte de préstamos próximos a vencer <a name="id5"></a>
+### Reporte de préstamos próximos a vencer <a name="id6"></a>
 
 La aplicación deberá ser capaz de generar un reporte de préstamos próximos a vencer. El 
 objetivo de este reporte es que un usuario administrador pueda acceder a él para visualizar 
 los ejemplares a ser devueltos en los próximos 7 días
 
-### Scoring de prestamos <a name="id6"></a>
+### Scoring de prestamos <a name="id7"></a>
 
 La aplicación deberá mantener un scoring de préstamos de manera de establecer premios y/ 
 castigos en el uso de los servicios de la aplicación.
@@ -75,13 +75,13 @@ El préstamo de un ejemplar tiene una duración base de 5 días hábiles. Pero m
 scoring un usuario si dispone de un buen puntaje puede extender el préstamo 1 día cada 5 
 puntos ganados en el scoring. Esto se pueda extender hasta un máximo de 15 días hábiles
 
-### Notificación de vencimiento de préstamos <a name="id7"></a>
+### Notificación de vencimiento de préstamos <a name="id8"></a>
 
 Cuando el préstamo se encuentre entre los dos días hábiles a ser vencido, se le enviará una 
 notificación por mail al usuario avisando de esta situación. El envío de notificaciones a los 
 usuarios deberá quedar registradas en la aplicación
 
-### Requerimientos no funcionales <a name="id8"></a>
+### Requerimientos no funcionales <a name="id9"></a>
 
 - La aplicación deberá ser robusta ante cualquier tipo de errores.
 
